@@ -12,5 +12,11 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <!-- textInput -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- RadioButtons -->
+        <item name="radioButtonStyle">@style/Widget.Gorjeta.CompoundButton.RadioButton.</item>
+        <!-- Switches -->
+        <item name="switchStyle">@style/Widget.Gorjeta.CompoundButton.Switch.</item>
     </style>
 </resources>

@@ -3,7 +3,7 @@
     <!-- Estilo do texto de TextView-->
     <style name="Widget.Gorjeta.TextView." parent="Widget.MaterialComponents.TextView">
         <item name="android:gravity">center_vertical</item>
-        <item name="android:minHeight">48dp</item>
+        <item name="android:minHeight">@dimen/min_text_height</item>
         <item name="android:textAppearance">?attr/textAppearanceBody1</item>
     </style>
     <!-- Estilo do texto de Switch-->
