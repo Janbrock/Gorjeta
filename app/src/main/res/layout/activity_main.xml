@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     tools:context=".MainActivity">
-    <!-- Ícone Cost of Service -->
+    <!-- Ícone textView custo do serviço -->
     <ImageView
         android:id="@+id/icon_cost_of_service"
         android:layout_width="wrap_content"
@@ -57,6 +57,7 @@
     <!-- Pergunta -->
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/service_question"
+        style="@style/Widget.Gorjeta.TextView."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -75,6 +76,7 @@
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/option_twenty_percent"
+            style="@style/Widget.Gorjeta.CompoundButton.RadioButton."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/amazing_20"
@@ -82,6 +84,7 @@
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/option_eighteen_percent"
+            style="@style/Widget.Gorjeta.CompoundButton.RadioButton."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/good_18"
@@ -89,6 +92,7 @@
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/option_fifteen_percent"
+            style="@style/Widget.Gorjeta.CompoundButton.RadioButton."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ok_15"
@@ -118,6 +122,7 @@
     <!-- Resultado -->
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tip_result"
+        style="@style/Widget.Gorjeta.TextView."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
