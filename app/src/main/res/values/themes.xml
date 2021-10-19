@@ -15,7 +15,8 @@
         <!-- Customize your theme here. -->
 
         <!-- textInput -->
-        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
+        </item>
         <!-- RadioButtons -->
         <item name="radioButtonStyle">@style/Widget.Gorjeta.CompoundButton.RadioButton.</item>
         <!-- Switches -->
